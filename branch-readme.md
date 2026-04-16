@@ -1,17 +1,19 @@
 # CS 561 Lab 3: Branch `<<BRANCH NAME>>`
 
 ## Branch Author
-Author Name (GitHub ID)
+Lucas Swanson (GitHub ID: Legit don't know this one yet lol)
 
 ## Summary of Work Done in this Branch
 Insert a summary of the work done in this branch. This should include a description the new feature(s) added and any bugs fixed.
+This branch is to be used as a comparison tool for development use only! Not intended to be merged.
+
+Purpose of this is so that as each team member opens their own PR's, this can be referenced for correct class definitions and placement within the files.
 
 ## Commits
 
 | Commit ID | Commit Message | # Lines Changed
 | --------- | ----------- | ---------------
-| 1234567 | Added new feature to calculate speed score | 50
-| 2345678 | Fixed bug in speed score calculation | 20
+| 1234567 | All Features | 124
 
 ### Total Commits Made in this Branch: xx
 
@@ -23,3 +25,6 @@ Example: In this branch, I rebased the `feature/new-feature` branch onto the `ma
 
 ### Cherry Pick Description (Delete if not applicable)
 Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+
+
+None of these are applicable but leavingthem in for context
