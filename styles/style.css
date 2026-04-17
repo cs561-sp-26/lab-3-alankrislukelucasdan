@@ -145,3 +145,7 @@ button::-moz-focus-inner {
     transition: 0.5s;
     width: 0px;
   }
+
+.btn-main { background: blue; color: white; border-radius: 5px; }
+.container-fluid { width: 100%; padding: 0 15px; }
+.text-center { text-align: center; }
