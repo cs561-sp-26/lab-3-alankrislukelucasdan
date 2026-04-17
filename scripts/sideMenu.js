@@ -28,3 +28,30 @@ for (let i = 0; i < GlobalMenuItems.length; ++i) {
         document.getElementById("menuBtn").click();
     });
 }
+
+function keyDownMenuBtnFocused(key) {
+    if (key === "ArrowDown" || key === "ArrowUp" || key === "Space" || key === "Enter") {
+        document.getElementById("menuBtn").click(); //open menu
+        if (key === "ArrowUp") {
+            GlobalFocusedMenuItem.set(GlobalMenuItems.length - 1);
+        } else {
+            GlobalFocusedMenuItem.set(0);
+        }
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+    }
+}
+
+function keyDownMenuItemFocused(key) {
+    if (key == "Enter") {
+        document.activeElement.click();
+    } else if (key === "Tab" || key == "Escape") {
+        document.getElementById("menuBtn").click();
+        document.getElementById("menuBtn").focus();
+    } else if (key === "ArrowUp") {
+        GlobalFocusedMenuItem.set((GlobalFocusedMenuItem.get() - 1 + GlobalMenuItems.length) % GlobalMenuItems.length);
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+    } else if (key === "ArrowDown") {
+        GlobalFocusedMenuItem.set((GlobalFocusedMenuItem.get() + 1) % GlobalMenuItems.length);
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+    }
+}
