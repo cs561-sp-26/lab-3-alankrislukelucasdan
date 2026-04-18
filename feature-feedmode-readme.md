@@ -21,4 +21,6 @@ Addition of a new tab/panel to the application which will allow for the user to 
 I encountered a rebase merge conflict when pulling a new version of `main`, which then attempted to replay my modified version of `main` on top of it with code merged from the `feature/feedmode` branch into the `main` branch.  The conflict occurred in `index.html` on line 51.  I resolved the conflict by combining both branches and placing my code at the appropriate location in the incoming file.  The commit ID for this is `9d680d4`.
 
 ### Rebase Description 
-I rebased an early version of the `feature/feedmode` branch onto `main` branch commit `9c95d37` in order to have the latest version for publishing some CSS style updates that could be used by others.  Commit `1d652a3` was then merged to main
+I rebased an early version of the `feature/feedmode` branch onto `main` branch commit `9c95d37` in order to have the latest version for publishing some CSS style updates that could be used by others.  Commit `1d652a3` was then merged to main.
+
+When pulling the latest before merging, I also I encountered a rebase merge conflict when pulling a new version of `main`, which then attempted to replay my modified version of `main` on top of it with code merged from the `feature/feedmode` branch into the `main` branch.  The conflict occurred in `index.html` on line 51.  I resolved the conflict by combining both branches and placing my code at the appropriate location in the incoming file.  The commit ID for this is `9d680d4`.
