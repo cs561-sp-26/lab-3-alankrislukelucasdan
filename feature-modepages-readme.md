@@ -10,10 +10,15 @@ The ModePages CSS area was added, commit by commit. Each commit was a single CSS
 
 | Commit ID | Commit Message | # Lines Changed
 | --------- | ----------- | ---------------
-| 1234567 | Added new feature to calculate speed score | 50
-| 2345678 | Fixed bug in speed score calculation | 20
+| 0a476a77 | Added mode-page-btn - uses groundbreaking results from recent UX innovation equity study | 5
+| d33242bf | Added mode-page-btn-container - flex display will support new paradigm | 5
+| b0673015 | Added mode-page-icon styling - extra large hero portrait | 3
+| 412ced9d | Added mode-page-content styling - centered medium text for dimpled eyeballs | 8
+| 5fa0e11e | Added mode-page-header styling - centered large text | 10
+| 4a14792d | Added mode-page padding; this will allow thumb space for clumsy golfers | 9
+| 871a367d | Initial ModePages commit; commented area for addition | x
 
-### Total Commits Made in this Branch: xx
+### Total Commits Made in this Branch: 7
 
 ### Merge Conflict Description (Delete if not applicable)
 Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
