@@ -18,6 +18,12 @@
      <link rel="stylesheet" href="styles/style.css">
    </head>
    <body>
+    <!--THE SIDE MENU -->
+    <ul id="sideMenu" role="menu" class="sidemenu" arial-labelledby="menuBtn">
+    <li role="menuitem" tabindex="-1">Settings</li>
+    <li role="menuitem" tabindex="-1">About</li>
+    <li role="menuitem" tabindex="-1">Log Out</li>
+    </ul>
     <!-- The TOP NAVIGATION BAR -->
     <header class="navbar"> 
         <a id="sLink" class="skip-link" tabindex="0">Skip to content</a>  
@@ -42,6 +48,12 @@
         </div>
     </header>
     <div>
+      <button id="roundsMode" type="button" 
+        class="modetab-btn" 
+        role="tab" tabindex="-1" aria-selected="false" 
+        aria-controls="roundsModeMain">
+        Rounds
+      </button>
       <button id="coursesMode" type="button" 
         class="modetab-btn" 
         role="tab" tabindex="-1" aria-selected="false" 
@@ -50,6 +62,17 @@
       </button>
     </div>
     <main>
+      <!--- TODO: PLACE feedModeTab --->
+      <div id="roundsModeTab" class="mode-page hidden" role="tabpanel"
+           aria-label="Rounds Tab" tabindex="0">
+        <h1 class="mode-page-header">Rounds</h1>
+        <p class="mode-page-content">This page is under construction.</p>
+        <img class="mode-page-icon" src="images/sslogo2.png" alt="SpeedScore logo">
+        <button id="roundsModeActionBtn"  type="button" 
+                class="float-btn">
+          <span class="fas fa-calendar-plus fa-fw" aria-hidden="true"></span>New Round
+        </button>
+      </div>
       <div id="coursesModeTab" role="tabpanel" class="mode-page hidden" 
            aria-label="Courses Tab" tabindex="0">
         <h1 class="mode-page-header">Courses</h1>
@@ -60,10 +83,30 @@
           <span class="fas fa-plus fa-fw" aria-hidden="true"></span>New Course
         </button>
       </div>
+      <!--- TODO: Place buddiesModeTab -->
+      <!--- TODO: Place buddiesModeTab -->
+      <div id="roundsModeDialog" 
+            class="mode-page action-dialog hidden" role="dialog" 
+        aria-modal="true" aria-labelledby="postRoundHeader" tabindex="0">
+        <h1 id="postRoundHeader" class="mode-page-header">Post Round</h1>
+        <p class="mode-page-content">
+          This modal dialog is under construction.
+        </p>
+        <img class="mode-page-icon" src="images/sslogo2.png" 
+            alt="SpeedScore logo">
+        <div class="mode-page-btn-container">
+          <button id="roundsModeActionBtn" 
+                  class="mode-page-btn action-dialog action-button" 
+                  type="button">Post Round</button>
+          <button id="roundsModeCancelBtn" 
+                  class="mode-page-btn action-dialog cancel-button"
+                  type="button">Cancel</button>
+        </div>
+      </div>
       <div id="coursesModeDialog" 
             class="mode-page action-dialog hidden" role="dialog" 
         aria-modal="true" aria-labelledby="newCourseHeader" tabindex="0">
-        <h1 id="addCourseHeader" class="mode-page-header">Add Course</h1>
+        <h1 id="addCourseHeader" class="mode-page-header">Add Course</h1>        
         <p class="mode-page-content">
           This modal dialog is under construction.
         </p>
@@ -77,10 +120,15 @@
                   class="mode-page-btn action-dialog cancel-button"
                   type="button">Cancel</button>
         </div>
-      </div> 
+      </div>
+      <!--- TODO: Place buddiesModeDialog --->
     </main>
     <script>
       //Begin SCRIPT section of document. Here we define app behavior.
     </script>
+    <script src="scripts/document.js"></script>
+    <script src="scripts/sideMenu.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/window.js"></script>
   </body>
 </html>
