@@ -26,5 +26,5 @@ Example: In this branch, I encountered a merge conflict when merging the `featur
 ### Rebase Description 
 In this branch, I had been editing this very readme and pushed 3 commits on GitHub. When I then edited my local copy of style.css, I was not able to push. So I ran git pull --rebase to bring my local branch into synchronicity, keeping both my remote and my local changes.
 
-### Cherry Pick Description (Delete if not applicable)
-Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+### Cherry Pick Description 
+I was hacking on a second copy of .mode-page-content, trying stuff. I tried making everything red and bold and committed. Then I tried adding italic text decoration and committed. Then I decided, clean slate, removed all the rules and added a content: "" rule. The clean slate was too clean --- I wanted to add the italic rule back, leaving the red and bold alone. So I did git cherry-pick HEAD~1 to restore the previous rule I added. I resolved the conflict with 'Both' and got my desire.
