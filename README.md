@@ -33,7 +33,7 @@
 ## Rebases
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
-| Luke | 0 | `feature/new-feature`
+| Luke | 1 | `feature/rebase`
 | Name 2 | 1 | `feature/new-feature`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
