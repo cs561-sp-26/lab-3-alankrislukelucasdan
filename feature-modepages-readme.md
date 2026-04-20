@@ -23,8 +23,8 @@ The ModePages CSS area was added, commit by commit. Each commit was a single CSS
 ### Merge Conflict Description (Delete if not applicable)
 Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
 
-### Rebase Description (Delete if not applicable)
-Example: In this branch, I rebased the `feature/new-feature` branch onto the `main` branch. The commit ID for this rebase is `4567890`. I resolved any conflicts that arose during the rebase process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+### Rebase Description 
+In this branch, I had been editing this very readme and pushed 3 commits on GitHub. When I then edited my local copy of style.css, I was not able to push. So I ran git pull --rebase to bring my local branch into synchronicity, keeping both my remote and my local changes.
 
 ### Cherry Pick Description (Delete if not applicable)
 Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
