@@ -212,4 +212,5 @@ button::-moz-focus-inner {
 
 .mode-page-content {
     content: "Let's just try some plain text";
+    text-decoration: italic;
 }
