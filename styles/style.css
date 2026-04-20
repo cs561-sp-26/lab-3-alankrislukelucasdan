@@ -211,5 +211,6 @@ button::-moz-focus-inner {
 }
 
 .mode-page-content {
-  
+    font-weight: bold;
+    color: red;
 }
