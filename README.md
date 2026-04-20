@@ -5,7 +5,7 @@
 
 ## Team Members
 - Luke (goodmalu19)
-- Name 2 (GitHub ID 2)
+- Alan (AlanWallace-OSU)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
 - Name 5 (GitHub ID 5)
@@ -15,7 +15,7 @@
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
 | Luke | 29 | 131 | 4.5
-| Name 2 | 8 | 20  | 2.5
+| Alan | 16 | 219  | 13.69
 | Name 3 | 5 | 10 | 2
 | Name 4 | 3 | 5 | 1.67
 | Name 5 | 2 | 2  | 1
@@ -25,7 +25,7 @@
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Luke | 6 | `feature/infrastructure`
-| Name 2 | 1 | `feature/new-feature`
+| Alan | 2 | `feature/feedmode`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
@@ -34,7 +34,7 @@
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
 | Luke | 1 | `feature/rebase`
-| Name 2 | 1 | `feature/new-feature`
+| Alan | 1 | `feature/feedmode`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
@@ -43,7 +43,7 @@
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Luke | 0 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Alan | 1 | `feature/buddiesmode`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
