@@ -32,6 +32,13 @@
 button::-moz-focus-inner {
     border: 0;
 }
+.hidden {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+}
 /*************************************************************************
 * CSS CLASSES FOR SKIP LINK (USED BY SCREEN READERS AND KEYBOARD NAV)
 * A skip link allows keyboard users to quickly skip over an app's 
@@ -198,6 +205,9 @@ button::-moz-focus-inner {
 .modetab-selected {
     cursor: default;
     border-bottom: 4px solid var(--main-red-color) !important;
+}
+
+/*************************************************************************
 * CSS CLASSES FOR MODE PAGES
 *************************************************************************/
 .mode-page {
@@ -257,4 +267,9 @@ button::-moz-focus-inner {
     border-radius: 50px;
     text-align: center;
     box-shadow: 2px 2px 3px #999;
+}
+/* float-btn:hover -- When float button is hovered, 
+change cursor to pointer */
+.float-btn:hover {
+cursor: pointer;
 }
