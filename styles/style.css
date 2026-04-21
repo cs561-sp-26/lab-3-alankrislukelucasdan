@@ -168,7 +168,6 @@ button::-moz-focus-inner {
 }
 
 /*************************************************************************
-<<<<<<< HEAD
 * CSS CLASSES FOR TOP MODE TABS
 *************************************************************************/
 /* .modetab -- Style the container enclosing the mode tabs */
@@ -199,7 +198,6 @@ button::-moz-focus-inner {
 .modetab-selected {
     cursor: default;
     border-bottom: 4px solid var(--main-red-color) !important;
-=======
 * CSS CLASSES FOR MODE PAGES
 *************************************************************************/
 .mode-page {
@@ -240,8 +238,9 @@ button::-moz-focus-inner {
     color: var(--text-color);
     background-color: var(--main-color);
     cursor: pointer;
->>>>>>> 3d40936 (Adding the functionality for all Mode Pages. Adds 6 classes, from adding pages, headers, content, icon, the container. and buttons)
 }
+
+
 
 /*************************************************************************
 * CSS CLASSES FOR FLOATING ACTION BUTTON
