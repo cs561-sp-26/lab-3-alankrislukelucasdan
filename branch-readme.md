@@ -1,7 +1,7 @@
 # CS 561 Lab 3: Branch `<<BRANCH NAME>>`
 
 ## Branch Author
-Author Name (GitHub ID)
+Lucas Swanson (199424628)
 
 ## Summary of Work Done in this Branch
 Insert a summary of the work done in this branch. This should include a description the new feature(s) added and any bugs fixed.
@@ -10,22 +10,16 @@ Insert a summary of the work done in this branch. This should include a descript
 
 | Commit ID | Commit Message | # Lines Changed
 | --------- | ----------- | ---------------
-| 1234567 | Added new feature to calculate speed score | 50
-| 2345678 | Fixed bug in speed score calculation | 20
+| 3d40936 | Added new classes to support Mode Pages and customization of them | 43
+| bfc0ef1 | Merge conflict resolution with rebase. No change to locally changed feature code. | 43
 
-### Total Commits Made in this Branch: xx
+### Total Commits Made in this Branch: 2
 
 ### Merge Conflict Description (Delete if not applicable)
-Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
+In this branch I encountered a merge conflict when merging 'feature/ModeTabsAddition' branch into the 'main' branch. The conflict occured within the 'style.css' file on line 132. I resolved the conflict by accepting the changes from main, as well as keeping my local changes. The commit ID for this merge is 'bfc0ef1'
 
 ### Rebase Description (Delete if not applicable)
-Example: In this branch, I rebased the `feature/new-feature` branch onto the `main` branch. The commit ID for this rebase is `4567890`. I resolved any conflicts that arose during the rebase process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
-
-### Cherry Pick Description (Delete if not applicable)
-Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
-
-### Cherry Pick Description
-In this branch, I cherry-picked the commit `7b59d3e` from the `feature/rebase` branch into the `main` branch to practice moving specific changes between branches.
+In this branch, I rebased the 'feature/ModeTabsAddition' branch onto the 'main' branch. The commit ID for this rebase is 'bfc0ef1'. I resolved any conflicts that arose during the rebase process by modifying the code in the 'style.css' file to work with the changes made in the 'main' branch.
 
 ### Rebase Description
-I rebased the `feature/rebase` branch onto the `main` branch to ensure that my feature branch was perfectly aligned with the latest version of the production code.
+I rebased the 'feature/ModeTabsAddition' branch onto the 'main' branch to ensure that my feature branch was perfectly aligned with the latest version of the production code.
