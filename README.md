@@ -7,7 +7,7 @@
 - Luke (goodmalu19)
 - Alan (AlanWallace-OSU)
 - Kris (KrisSoto)
-- Name 4 (GitHub ID 4)
+- Dan (gelderdatoregonstate)
 - Name 5 (GitHub ID 5)
 
 ## Commits
@@ -17,7 +17,7 @@
 | Luke | 29 | 131 | 4.5
 | Alan | 16 | 219  | 13.69
 | Kris | 11 | 126 | 12.6
-| Name 4 | 3 | 5 | 1.67
+| Dan | 9 | 63 | 7
 | Name 5 | 2 | 2  | 1
 | **Totals** | **30** | **87** | **2.9**
 
@@ -27,7 +27,7 @@
 | Luke | 6 | `feature/infrastructure`
 | Alan | 2 | `feature/feedmode`
 | Kris | 1 | `feature/course_mode`
-| Name 4 | 0 | `feature/new-feature`
+| Dan | 1 | `feature/ModePages`
 | Name 5 | 0 | `feature/new-feature`
 
 ## Rebases
@@ -36,7 +36,7 @@
 | Luke | 1 | `feature/rebase`
 | Alan | 1 | `feature/feedmode`
 | Kris | 1 | `feature/rounds_mode`
-| Name 4 | 0 | `feature/new-feature`
+| Dan | 1 | `feature/ModePages`
 | Name 5 | 0 | `feature/new-feature`
 
 ## Cherry Picks
@@ -45,5 +45,5 @@
 | Luke | 0 | `feature/new-feature`
 | Alan | 1 | `feature/buddiesmode`
 | Kris | 1 | `feature/window`
-| Name 4 | 0 | `feature/new-feature`
+| Dan | 10 | `feature/ModePages`
 | Name 5 | 0 | `feature/new-feature`
