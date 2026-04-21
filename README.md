@@ -8,7 +8,7 @@
 - Alan (AlanWallace-OSU)
 - Kris (KrisSoto)
 - Dan (gelderdatoregonstate)
-- Name 5 (GitHub ID 5)
+- Name 5 (SragonSlayer, 199424628)
 
 ## Commits
 
