@@ -18,7 +18,7 @@
 | Alan | 16 | 219  | 13.69
 | Kris | 11 | 126 | 12.6
 | Dan | 9 | 63 | 7
-| Name 5 | 2 | 2  | 1
+| Lucas | 9 | 473 | 52.5
 | **Totals** | **30** | **87** | **2.9**
 
 ## Merge Conflicts Resolved
@@ -28,7 +28,7 @@
 | Alan | 2 | `feature/feedmode`
 | Kris | 1 | `feature/course_mode`
 | Dan | 1 | `feature/ModePages`
-| Name 5 | 0 | `feature/new-feature`
+| Lucas | 1 | `feature/ModeTabsAddition`
 
 ## Rebases
 | Name | # Rebases | Within Branch
@@ -37,7 +37,7 @@
 | Alan | 1 | `feature/feedmode`
 | Kris | 1 | `feature/rounds_mode`
 | Dan | 1 | `feature/ModePages`
-| Name 5 | 0 | `feature/new-feature`
+| Lucas | 1 | `feature/ModeTabsAddition`
 
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
@@ -46,4 +46,4 @@
 | Alan | 1 | `feature/buddiesmode`
 | Kris | 1 | `feature/window`
 | Dan | 10 | `feature/ModePages`
-| Name 5 | 0 | `feature/new-feature`
+| Lucas | 1 | `feature/mainAlterations`
