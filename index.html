@@ -18,12 +18,6 @@
      <link rel="stylesheet" href="styles/style.css">
    </head>
    <body>
-    <!--THE SIDE MENU -->
-    <ul id="sideMenu" role="menu" class="sidemenu" arial-labelledby="menuBtn">
-    <li role="menuitem" tabindex="-1">Settings</li>
-    <li role="menuitem" tabindex="-1">About</li>
-    <li role="menuitem" tabindex="-1">Log Out</li>
-    </ul>
     <!-- The TOP NAVIGATION BAR -->
     <header class="navbar"> 
         <a id="sLink" class="skip-link" tabindex="0">Skip to content</a>  
@@ -47,7 +41,22 @@
             </button>  
         </div>
     </header>
-    <div>
+      <!--THE SIDE MENU -->
+      <ul id="sideMenu" role="menu" class="sidemenu"
+          arial-labelledby="menuBtn">
+      <li role="menuitem" tabindex="-1">
+        Settings
+      </li>
+      <li role="menuitem" tabindex="-1">
+        About
+      </li>
+      <li role="menuitem" tabindex="-1">
+        Log Out
+      </li>
+    </ul>
+    <!-- "MODE" TABS -->
+    <div id="modeTabs" class="modetab-container" role="tablist" 
+      aria-label="App Modes">
       <button id="feedMode" type="button" 
         class="modetab-btn modetab-selected" 
         role="tab" tabindex="0" aria-selected="true" 
@@ -132,7 +141,7 @@
                   class="mode-page-btn action-dialog cancel-button"
                   type="button">Cancel</button>
         </div>
-      </div>
+      </div> 
       <div id="roundsModeDialog" 
             class="mode-page action-dialog hidden" role="dialog" 
         aria-modal="true" aria-labelledby="postRoundHeader" tabindex="0">
@@ -150,11 +159,11 @@
                   class="mode-page-btn action-dialog cancel-button"
                   type="button">Cancel</button>
         </div>
-      </div>
+      </div> 
       <div id="coursesModeDialog" 
             class="mode-page action-dialog hidden" role="dialog" 
         aria-modal="true" aria-labelledby="newCourseHeader" tabindex="0">
-        <h1 id="addCourseHeader" class="mode-page-header">Add Course</h1>        
+        <h1 id="addCourseHeader" class="mode-page-header">Add Course</h1>
         <p class="mode-page-content">
           This modal dialog is under construction.
         </p>
@@ -168,7 +177,7 @@
                   class="mode-page-btn action-dialog cancel-button"
                   type="button">Cancel</button>
         </div>
-      </div>
+      </div> 
       <div id="buddiesModeDialog" 
             class="mode-page action-dialog hidden" role="dialog" 
         aria-modal="true" aria-labelledby="findBuddiesHeader" tabindex="0">
@@ -186,14 +195,13 @@
                   class="mode-page-btn action-dialog cancel-button"
                   type="button">Cancel</button>
         </div>
-      </div>
+      </div> 
     </main>
-    <script>
-      //Begin SCRIPT section of document. Here we define app behavior.
-    </script>
-    <script src="scripts/document.js"></script>
-    <script src="scripts/sideMenu.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/window.js"></script>
+    <script src="scripts/sideMenu.js"></script>
+    <script src="scripts/modeTabs.js"></script>
+    <script src="scripts/modeActions.js"></script>
+    <script src="scripts/document.js"></script>
   </body>
 </html>
