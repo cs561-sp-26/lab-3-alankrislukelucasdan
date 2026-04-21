@@ -168,6 +168,7 @@ button::-moz-focus-inner {
 }
 
 /*************************************************************************
+<<<<<<< HEAD
 * CSS CLASSES FOR TOP MODE TABS
 *************************************************************************/
 /* .modetab -- Style the container enclosing the mode tabs */
@@ -198,6 +199,48 @@ button::-moz-focus-inner {
 .modetab-selected {
     cursor: default;
     border-bottom: 4px solid var(--main-red-color) !important;
+=======
+* CSS CLASSES FOR MODE PAGES
+*************************************************************************/
+.mode-page {
+    padding-top: 70px;
+}
+
+.mode-page-header {
+    text-align: center;
+    font-size: 48px;
+}
+
+.mode-page-content {
+    text-align: center;
+    font-size: 24px;
+}
+
+.mode-page-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.mode-page-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 25%;  
+}
+
+.mode-page-btn {
+    display: inline;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    cursor: pointer;
+>>>>>>> 3d40936 (Adding the functionality for all Mode Pages. Adds 6 classes, from adding pages, headers, content, icon, the container. and buttons)
 }
 
 /*************************************************************************
