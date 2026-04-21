@@ -23,3 +23,9 @@ Example: In this branch, I rebased the `feature/new-feature` branch onto the `ma
 
 ### Cherry Pick Description (Delete if not applicable)
 Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+
+### Cherry Pick Description
+In this branch, I cherry-picked the commit `7b59d3e` from the `feature/rebase` branch into the `main` branch to practice moving specific changes between branches.
+
+### Rebase Description
+I rebased the `feature/rebase` branch onto the `main` branch to ensure that my feature branch was perfectly aligned with the latest version of the production code.
