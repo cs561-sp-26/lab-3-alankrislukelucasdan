@@ -210,7 +210,4 @@ button::-moz-focus-inner {
     cursor: pointer;
 }
 
-.mode-page-content {
-    content: "Let's just try some plain text";
-    text-decoration: italic;
-}
+
